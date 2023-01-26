@@ -27,8 +27,8 @@ p {
 hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+  width: 6%;
+  margin: 40px auto;
 }
 a {
   color: #11999e;
@@ -44,9 +44,10 @@ a:hover {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 40px;
 }
 .middle-container {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 .bottom-container {
   background-color: #66bfbf;
