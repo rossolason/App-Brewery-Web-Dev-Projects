@@ -9,9 +9,30 @@ h1 {
   line-height: 1.5;
   font-weight: 900;
 }
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
 
 .container-fluid {
   padding: 3% 15%;
+}
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+.icon:hover {
+  color: #ff4c68;
 }
 
 .navbar {
@@ -33,9 +54,36 @@ h1 {
 .download-button {
   margin: 5% 3% 5% 0%;
 }
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+#features {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
 }
 #title {
   background-color: #ff4c68;
