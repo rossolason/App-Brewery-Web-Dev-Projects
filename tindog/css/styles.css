@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat";
-  font-weight: 200;
+  font-weight: 300;
 }
 
 h1 {
@@ -64,22 +64,44 @@ p {
   width: 15%;
   margin: 20px 20px 50px;
 }
+.pricing-column {
+  padding: 3% 2%;
+}
 .testimonials-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 .title-image {
-  width: 60%;
+  width: 18%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+@media (max-width: 1100px) {
+  .title-image {
+    position: static;
+    width: 60%;
+    text-align: center;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
 }
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 #press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 #testimonials {
   background-color: #ef8172;
@@ -89,5 +111,5 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
-  font-weight: 200;
+  font-weight: 300;
 }
