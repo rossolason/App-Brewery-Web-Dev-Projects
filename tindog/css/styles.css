@@ -28,6 +28,12 @@ p {
 .container-fluid {
   padding: 3% 15%;
 }
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
 .icon {
   color: #ef8172;
   padding-bottom: 1rem;
@@ -67,6 +73,9 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+.social-icon {
+  margin: 20px 10px;
+}
 .testimonials-image {
   width: 10%;
   border-radius: 100%;
@@ -89,10 +98,20 @@ p {
     text-align: center;
   }
 }
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
 #features {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
 #press {
   background-color: #ef8172;
