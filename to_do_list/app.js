@@ -20,6 +20,8 @@ app.get("/", function (req, res) {
   });
 });
 
+app.get("/posts/:postName", function (req, res) {});
+
 app.post("/", function (req, res) {
   let item = req.body.newItem;
   items.push(item);
